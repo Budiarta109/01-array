@@ -1,3 +1,5 @@
+# Created by I Nyoman Budiarta
+
 # Konsep Array dalam Program
 
 Dalam Python, konsep Array diimplementasikan menggunakan tipe data List.

@@ -19,7 +19,6 @@ Dalam Python, konsep Array diimplementasikan menggunakan tipe data List.
 <img width="2098" height="995" alt="image" src="https://github.com/user-attachments/assets/f046901b-f6ea-4dad-9d35-53a2d1ee62ee" />
 
 # 3. Analisis Kompleksitas
-
 | Operasi | Metode yang Digunakan | Kompleksitas Waktu | Kompleksitas Ruang | Keterangan |
 |---------|-----------------------|--------------------|--------------------|------------|
 | Input 10 Nilai | while loop + append() | $O(1)$ | $O(n)$ | $n=10$ (Tetap/Konstan) |
@@ -31,7 +30,8 @@ Dalam Python, konsep Array diimplementasikan menggunakan tipe data List.
 | Visualisasi Grafik | matplotlib.pyplot | $O(1)$ | $O(1)$ | Untuk data kecil, rendering sangat cepat |
 | Keseluruhan Program | — | $O(n)$ | $O(n)$ | Efisien secara Linear |
 
-# 4. Refleksi PembelajaranSetelah menyelesaikan proyek kecil ini, berikut adalah poin-poin penting yang saya pelajari:
+# 4. Refleksi Pembelajaran
+Setelah menyelesaikan proyek kecil ini, berikut adalah poin-poin penting yang saya pelajari:
 * Validasi Data yang Kuat: Menggunakan blok try-except sangat krusial dalam Python untuk mencegah program force close saat user memasukkan data non-numerik.
 
 * Visualisasi Data: Saya memahami bagaimana menerjemahkan data mentah menjadi informasi visual menggunakan matplotlib. Penentuan batas sumbu Y (plt.ylim) dan pelabelan angka di atas grafik sangat membantu audiens dalam membaca data.

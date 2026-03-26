@@ -1,13 +1,13 @@
 # Konsep Array dalam Program
 
 Dalam Python, konsep Array diimplementasikan menggunakan tipe data List.
-*Penyimpanan Data: List digunakan untuk menampung sekumpulan nilai mahasiswa (nilai = []) dalam satu variabel tunggal.
+* Penyimpanan Data: List digunakan untuk menampung sekumpulan nilai mahasiswa (nilai = []) dalam satu variabel tunggal.
 
-*Akses Elemen: Kita mengakses data menggunakan indeks (misalnya nilai[0] untuk mahasiswa pertama).
+* Akses Elemen: Kita mengakses data menggunakan indeks (misalnya nilai[0] untuk mahasiswa pertama).
 
-*Iterasi: Program menggunakan List Comprehension [n for n in nilai if n >= 60] untuk menyaring data secara efisien tanpa memerlukan banyak baris kode.
+* Iterasi: Program menggunakan List Comprehension [n for n in nilai if n >= 60] untuk menyaring data secara efisien tanpa memerlukan banyak baris kode.
 
-*Dinamis: List di Python bersifat dinamis, sehingga kita bisa menambah data menggunakan fungsi .append() saat melakukan perulangan input.
+* Dinamis: List di Python bersifat dinamis, sehingga kita bisa menambah data menggunakan fungsi .append() saat melakukan perulangan input.
 
 # Input Nilai & Output teks di terminal
 <img width="624" height="652" alt="image" src="https://github.com/user-attachments/assets/778423f1-d074-4785-a5d6-e1201a412639" />
@@ -27,10 +27,10 @@ Dalam Python, konsep Array diimplementasikan menggunakan tipe data List.
 | Keseluruhan Program | — | $O(n)$ | $O(n)$ | Efisien secara Linear |
 
 # Refleksi PembelajaranSetelah menyelesaikan proyek kecil ini, berikut adalah poin-poin penting yang saya pelajari:
-*Validasi Data yang Kuat: Menggunakan blok try-except sangat krusial dalam Python untuk mencegah program force close saat user memasukkan data non-numerik.
+* Validasi Data yang Kuat: Menggunakan blok try-except sangat krusial dalam Python untuk mencegah program force close saat user memasukkan data non-numerik.
 
-*Visualisasi Data: Saya memahami bagaimana menerjemahkan data mentah menjadi informasi visual menggunakan matplotlib. Penentuan batas sumbu Y (plt.ylim) dan pelabelan angka di atas grafik sangat membantu audiens dalam membaca data.
+* Visualisasi Data: Saya memahami bagaimana menerjemahkan data mentah menjadi informasi visual menggunakan matplotlib. Penentuan batas sumbu Y (plt.ylim) dan pelabelan angka di atas grafik sangat membantu audiens dalam membaca data.
 
-*Efisiensi Fungsi Bawaan: Penggunaan fungsi built-in seperti max(), min(), dan sum() terbukti lebih efisien dan membuat kode lebih bersih (clean code) dibandingkan menulis perulangan manual.
+* Efisiensi Fungsi Bawaan: Penggunaan fungsi built-in seperti max(), min(), dan sum() terbukti lebih efisien dan membuat kode lebih bersih (clean code) dibandingkan menulis perulangan manual.
 
-*Skalabilitas: Meskipun program ini diatur untuk 10 mahasiswa, strukturnya sudah siap untuk menangani jumlah data yang lebih besar ($n$) dengan kompleksitas linear.
+* Skalabilitas: Meskipun program ini diatur untuk 10 mahasiswa, strukturnya sudah siap untuk menangani jumlah data yang lebih besar ($n$) dengan kompleksitas linear.

@@ -15,21 +15,13 @@ Dalam Python, konsep Array diimplementasikan menggunakan tipe data List.
 | Operasi | Metode yang Digunakan | Kompleksitas Waktu | Kompleksitas Ruang | Keterangan |
 |---------|-----------------------|--------------------|--------------------|------------|
 | Input 10 Nilai | while loop + append() | $O(1)$ | $O(n)$ | $n=10$ (Tetap/Konstan) |
-|---------|-----------------------|--------------------|--------------------|------------|
 | Mencari Nilai Maksimum | max(nilai) | $O(n)$ | $O(1)$ | Melakukan traversal seluruh elemen |
-|---------|-----------------------|--------------------|--------------------|------------|
 | Mencari Nilai Minimum | min(nilai) | $O(n)$ | $O(1)$ | Melakukan traversal seluruh elemen |
-|---------|-----------------------|--------------------|--------------------|------------|
 | Menghitung Rata-rata | sum(nilai) / len() | $O(n)$ | $O(1)$ | Memerlukan akumulasi seluruh data |
-|---------|-----------------------|--------------------|--------------------|------------|
 | Filter Kelulusan | list comprehension | $O(n)$ | $O(n)$ | Membuat list baru untuk filter data |
-|---------|-----------------------|--------------------|--------------------|------------|
 | Menampilkan Output | print() f-string | $O(1)$ | $O(1)$ | Operasi I/O standar |
-|---------|-----------------------|--------------------|--------------------|------------|
 | Visualisasi Grafik | matplotlib.pyplot | $O(1)$ | $O(1)$ | Untuk data kecil, rendering sangat cepat |
-|---------|-----------------------|--------------------|--------------------|------------|
 | Keseluruhan Program | — | $O(n)$ | $O(n)$ | Efisien secara Linear |
-|---------|-----------------------|--------------------|--------------------|------------|
 
 # Refleksi PembelajaranSetelah menyelesaikan proyek kecil ini, berikut adalah poin-poin penting yang saya pelajari:
 •Validasi Data yang Kuat: Menggunakan blok try-except sangat krusial dalam Python untuk mencegah program force close saat user memasukkan data non-numerik.

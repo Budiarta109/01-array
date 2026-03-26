@@ -1,37 +1,29 @@
-# 01-array
-Tugas Struktur Data 1
+🌟Konsep Array dalam Program
 
-1. Penjelasan Konsep Array
-Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe yang sama dalam satu variabel. Data dalam array disimpan secara berurutan di dalam memori dan setiap elemen dapat diakses menggunakan indeks.
-Contoh array nilai mahasiswa:
-nilai = [70, 85, 90, 60, 75]
-Indeks array dimulai dari 0.
+Dalam Python, konsep Array diimplementasikan menggunakan tipe data List.
+•Penyimpanan Data: List digunakan untuk menampung sekumpulan nilai mahasiswa (nilai = []) dalam satu variabel tunggal.
+•Akses Elemen: Kita mengakses data menggunakan indeks (misalnya nilai[0] untuk mahasiswa pertama).
+•Iterasi: Program menggunakan List Comprehension [n for n in nilai if n >= 60] untuk menyaring data secara efisien tanpa memerlukan banyak baris kode.
+•Dinamis: List di Python bersifat dinamis, sehingga kita bisa menambah data menggunakan fungsi .append() saat melakukan perulangan input.
 
-0 → 70  
-1 → 85  
-2 → 90  
-3 → 60  
-4 → 75  
+Input Nilai & Output teks di terminal
+<img width="624" height="652" alt="image" src="https://github.com/user-attachments/assets/778423f1-d074-4785-a5d6-e1201a412639" />
 
-Array memudahkan kita untuk melakukan operasi seperti:
-- Menghitung rata-rata
-- Mencari nilai maksimum
-- Mencari nilai minimum
-- Menghitung jumlah data tertentu
+Grafik (Nilai Minimum/NilaiRata-Rata/Nilai Maksimum)
+<img width="1351" height="1006" alt="image" src="https://github.com/user-attachments/assets/c4a065b0-12ba-4b0c-80cc-ec983ed0fa94" />
 
-2. Hasil Eksekusi
-  <img width="542" height="318" alt="image" src="https://github.com/user-attachments/assets/36c82bd0-e0c9-4f9c-81e6-b72263e32068" />
-  <img width="671" height="712" alt="image" src="https://github.com/user-attachments/assets/b40a2ae6-8e6b-47f6-8231-e7f30d5d1a2f" />
+| Operasi | Metode yang Digunakan | Kompleksitas Waktu | Kompleksitas Ruang | Keterangan |
+| Input 10 Nilai | while loop + append() | $O(1)$ | $O(n)$ | $n=10$ (Tetap/Konstan) |
+| Mencari Nilai Maksimum | max(nilai) | $O(n)$ | $O(1)$ | Melakukan traversal seluruh elemen |
+| Mencari Nilai Minimum | min(nilai) | $O(n)$ | $O(1)$ | Melakukan traversal seluruh elemen |
+| Menghitung Rata-rata | sum(nilai) / len() | $O(n)$ | $O(1)$ | Memerlukan akumulasi seluruh data |
+| Filter Kelulusan | list comprehension | $O(n)$ | $O(n)$ | Membuat list baru untuk filter data |
+| Menampilkan Output | print() f-string | $O(1)$ | $O(1)$ | Operasi I/O standar |
+| Visualisasi Grafik | matplotlib.pyplot | $O(1)$ | $O(1)$ | Untuk data kecil, rendering sangat cepat |
+| Keseluruhan Program | — | $O(n)$ | $O(n)$ | Efisien secara Linear |
 
-3. Analisis Kompleksitas
-   Misalkan jumlah data = n
-
-  | Operasi | Kompleksitas |
-  |-------|-------------|
-  | Input nilai | O(n) |
-  | Mencari nilai tertinggi | O(n) |
-  | Mencari nilai terendah | O(n) |
-  | Menghitung rata-rata | O(n) |
-  | Menghitung kelulusan | O(n) |
-  | Menampilkan grafik | O(1) |
-
+💡 Refleksi PembelajaranSetelah menyelesaikan proyek kecil ini, berikut adalah poin-poin penting yang saya pelajari:
+•Validasi Data yang Kuat: Menggunakan blok try-except sangat krusial dalam Python untuk mencegah program force close saat user memasukkan data non-numerik.
+•Visualisasi Data: Saya memahami bagaimana menerjemahkan data mentah menjadi informasi visual menggunakan matplotlib. Penentuan batas sumbu Y (plt.ylim) dan pelabelan angka di atas grafik      sangat membantu audiens dalam membaca data.
+•Efisiensi Fungsi Bawaan: Penggunaan fungsi built-in seperti max(), min(), dan sum() terbukti lebih efisien dan membuat kode lebih bersih (clean code) dibandingkan menulis perulangan manual.
+•Skalabilitas: Meskipun program ini diatur untuk 10 mahasiswa, strukturnya sudah siap untuk menangani jumlah data yang lebih besar ($n$) dengan kompleksitas linear.

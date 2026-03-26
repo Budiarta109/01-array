@@ -11,7 +11,7 @@ Dalam Python, konsep Array diimplementasikan menggunakan tipe data List.
 
 * Dinamis: List di Python bersifat dinamis, sehingga kita bisa menambah data menggunakan fungsi .append() saat melakukan perulangan input.
 
-# Screenshoot Hasil Eksekusi
+# 2. Screenshoot Hasil Eksekusi
 1. Input Nilai & Output teks di terminal
 <img width="868" height="626" alt="image" src="https://github.com/user-attachments/assets/e4be9ed8-d73a-49c7-ac84-5f2d33c42d73" />
 

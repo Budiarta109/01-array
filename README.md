@@ -12,10 +12,11 @@ Dalam Python, konsep Array diimplementasikan menggunakan tipe data List.
 * Dinamis: List di Python bersifat dinamis, sehingga kita bisa menambah data menggunakan fungsi .append() saat melakukan perulangan input.
 
 # Input Nilai & Output teks di terminal
-<img width="624" height="652" alt="image" src="https://github.com/user-attachments/assets/778423f1-d074-4785-a5d6-e1201a412639" />
+<img width="868" height="626" alt="image" src="https://github.com/user-attachments/assets/e4be9ed8-d73a-49c7-ac84-5f2d33c42d73" />
 
 # Grafik (Nilai Minimum/NilaiRata-Rata/Nilai Maksimum)
-<img width="1351" height="1006" alt="image" src="https://github.com/user-attachments/assets/c4a065b0-12ba-4b0c-80cc-ec983ed0fa94" />
+<img width="2098" height="995" alt="image" src="https://github.com/user-attachments/assets/f046901b-f6ea-4dad-9d35-53a2d1ee62ee" />
+
 
 | Operasi | Metode yang Digunakan | Kompleksitas Waktu | Kompleksitas Ruang | Keterangan |
 |---------|-----------------------|--------------------|--------------------|------------|
